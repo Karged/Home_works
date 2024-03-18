@@ -11,14 +11,18 @@
         var age;
 
         if (confirm("Перевіремо мій калькулятор?")) {
-            age = prompt("Привіт, скільки тобі років?");
+            age = parseInt(prompt("Привіт, скільки тобі років?"));
 
         };
 
         let age1 = age % 10;
         let message = '';
 
-        if (age < 1 || age > 99) {
+        if (isNaN(age)) {
+            message = "Будь ласка введіть свій рік, як число!";
+            alert(message);
+        }
+        else if(age < 1 || age > 99) {
             message = " років? та ну не може такого бути!";
             alert("тобі " + age + message);
         }

@@ -1,4 +1,4 @@
-let age = 21;
+let age = "gdhg";
 let age1 = age % 10;
 let message = '';
 if (age < 1 || age > 99) {
@@ -23,3 +23,5 @@ else {
     message = " років";
 };
 console.log("тобі " + age + message);
+console.log(typeof age);
+
