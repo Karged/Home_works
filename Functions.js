@@ -1,5 +1,4 @@
 // My PAD function
-/*
 function mypad(mystr, mysymb, mybool) {
     let myl = mystr.length;
     let n = 10;
@@ -15,5 +14,4 @@ function mypad(mystr, mysymb, mybool) {
 }
 let result = mypad('andrii', '$', true);
 console.log(result);
-*/
-let
+
