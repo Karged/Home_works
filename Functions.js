@@ -18,6 +18,8 @@ console.log(result);
 */
 // My Theory function
 
+
+/*
 let parne = 0;
 let neparne = 0;
 let prctprn;
@@ -44,3 +46,13 @@ function RnmNumber(min, max, n) {
 }
 
 console.log(RnmNumber(100, 1000, 10000));
+*/
+function nun(a) {
+        if (typeof(a) == 'number')
+        m = ' and it is a NUMBER';
+    else
+        m = ' and it is a NaN';
+console.log("entered value for function nuun = " + a + m);
+}
+console.log(nun(76.89));
+console.log(nun("just a text"));
